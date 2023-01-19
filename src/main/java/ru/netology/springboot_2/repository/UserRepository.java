@@ -17,7 +17,7 @@ public class UserRepository {
 
     public List<Authorities> getUserAuthorities(String user, String password) {
 
-        if (users.get(user).equals(password)) {
+        if ((users.get(user) != null) && users.get(user).equals(password)) {
             if (acls.containsKey(user)) {
                 return acls.get(user);
             }
