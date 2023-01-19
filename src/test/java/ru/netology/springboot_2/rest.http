@@ -1,4 +1,4 @@
-GET http://localhost:8080/authorize?user=root&password=1234
+GET http://localhost:8080/authorize?user=admin&password=1111
 Accept: application/json
 
 ###
@@ -8,7 +8,7 @@ Accept: application/json
 
 ###
 
-GET http://localhost:8080/authorize?user=user&password=3333
+GET http://localhost:8080/authorize?user=user&password=2222
 Accept: application/json
 
 ###
